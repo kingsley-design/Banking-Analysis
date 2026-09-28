@@ -1,0 +1,115 @@
+{
+  "name": "Bank Customer Analysis — Molten Warm",
+  "dataColors": ["#E2352E", "#F36717", "#FFA332", "#963828", "#A87A5F", "#D42515", "#FFAD3F", "#901117", "#78645B", "#E5DCD5"],
+  "good": "#E2352E",
+  "neutral": "#FFA332",
+  "bad": "#963828",
+  "maximum": "#901117",
+  "center": "#F36717",
+  "minimum": "#FFAD3F",
+  "null": "#E5DCD5",
+  "background": "#FEF9F4",
+  "backgroundLight": "#FAF0E7",
+  "backgroundNeutral": "#E5DCD5",
+  "foreground": "#231814",
+  "foregroundLight": "#78645B",
+  "foregroundNeutralSecondary": "#78645B",
+  "foregroundNeutralTertiary": "#A89890",
+  "tableAccent": "#D42515",
+  "hyperlink": "#D42515",
+  "visitedHyperlink": "#963828",
+  "secondaryBackground": "#FAF0E7",
+  "primaryTextClass": { "fontFace": "Space Grotesk", "fontSize": 12, "color": "#231814" },
+  "secondaryTextClass": { "fontFace": "IBM Plex Sans", "fontSize": 10, "color": "#78645B" },
+  "textClasses": {
+    "title": { "fontFace": "Space Grotesk", "fontSize": 16, "color": "#231814" },
+    "largeTitle": { "fontFace": "Space Grotesk", "fontSize": 26, "color": "#231814" },
+    "header": { "fontFace": "Space Grotesk", "fontSize": 13, "color": "#231814" },
+    "label": { "fontFace": "IBM Plex Sans", "fontSize": 10, "color": "#78645B" },
+    "callout": { "fontFace": "Space Grotesk", "fontSize": 34, "color": "#231814" },
+    "largeLabel": { "fontFace": "IBM Plex Sans", "fontSize": 12, "color": "#231814" },
+    "smallLabel": { "fontFace": "IBM Plex Sans", "fontSize": 9, "color": "#78645B" },
+    "lightLabel": { "fontFace": "IBM Plex Sans", "fontSize": 10, "color": "#78645B" },
+    "boldLabel": { "fontFace": "IBM Plex Sans", "fontSize": 10, "color": "#231814" }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [{ "show": true, "color": { "solid": { "color": "#FFFFFF" } }, "transparency": 0 }],
+        "border": [{ "show": true, "color": { "solid": { "color": "#E5DCD5" } }, "radius": 16 }],
+        "visualHeader": [{ "show": true, "background": { "solid": { "color": "#FFFFFF" } }, "foreground": { "solid": { "color": "#78645B" } }, "transparency": 0 }],
+        "dropShadow": [{ "show": true, "color": { "solid": { "color": "#963828" } }, "position": "Outer", "preset": "BottomRight", "shadowSpread": 8, "shadowBlur": 18, "transparency": 82 }],
+        "title": [{ "show": true, "fontColor": { "solid": { "color": "#231814" } }, "background": { "solid": { "color": "#FFFFFF" } }, "alignment": "left", "fontSize": 13, "fontFamily": "Space Grotesk", "bold": true }],
+        "labels": [{ "color": { "solid": { "color": "#231814" } }, "fontSize": 10, "fontFamily": "IBM Plex Sans" }],
+        "legend": [{ "show": true, "position": "TopCenter", "showTitle": false, "labelColor": { "solid": { "color": "#78645B" } }, "fontSize": 10, "fontFamily": "IBM Plex Sans" }],
+        "categoryAxis": [{ "show": true, "showAxisTitle": false, "labelColor": { "solid": { "color": "#78645B" } }, "fontSize": 10, "fontFamily": "IBM Plex Sans", "gridlineShow": false, "lineColor": { "solid": { "color": "#E5DCD5" } } }],
+        "valueAxis": [{ "show": true, "showAxisTitle": false, "labelColor": { "solid": { "color": "#78645B" } }, "fontSize": 10, "fontFamily": "IBM Plex Sans", "gridlineShow": true, "gridlineColor": { "solid": { "color": "#F0E7DF" } }, "gridlineStyle": "solid", "gridlineThickness": 1 }],
+        "outspacePane": [{ "backgroundColor": { "solid": { "color": "#FAF0E7" } }, "foregroundColor": { "solid": { "color": "#231814" } }, "borderColor": { "solid": { "color": "#E5DCD5" } }, "transparency": 0 }]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [{ "color": { "solid": { "color": "#FEF9F4" } }, "transparency": 0 }],
+        "outspace": [{ "color": { "solid": { "color": "#FEF9F4" } }, "transparency": 0 }]
+      }
+    },
+    "card": {
+      "*": {
+        "labels": [{ "color": { "solid": { "color": "#231814" } }, "fontSize": 30, "fontFamily": "Space Grotesk", "bold": true }],
+        "categoryLabels": [{ "show": true, "color": { "solid": { "color": "#78645B" } }, "fontSize": 10, "fontFamily": "IBM Plex Sans" }]
+      }
+    },
+    "kpi": {
+      "*": {
+        "indicator": [{ "fontSize": 30, "fontFamily": "Space Grotesk", "color": { "solid": { "color": "#231814" } } }],
+        "trendline": [{ "show": true }]
+      }
+    },
+    "multiRowCard": {
+      "*": {
+        "card": [{ "outline": "None" }],
+        "dataLabels": [{ "color": { "solid": { "color": "#231814" } }, "fontSize": 18, "fontFamily": "Space Grotesk" }]
+      }
+    },
+    "lineChart": {
+      "*": {
+        "lineStyles": [{ "strokeWidth": 3, "lineStyle": "solid", "showMarker": true, "markerSize": 5 }]
+      }
+    },
+    "columnChart": { "*": { "dataPoint": [{ "fill": { "solid": { "color": "#E2352E" } } }] } },
+    "barChart": { "*": { "dataPoint": [{ "fill": { "solid": { "color": "#E2352E" } } }] } },
+    "donutChart": { "*": { "slices": [{ "innerRadiusRatio": 65 }] } },
+    "pieChart": { "*": { "legend": [{ "position": "Right" }] } },
+    "slicer": {
+      "*": {
+        "background": [{ "show": true, "color": { "solid": { "color": "#FFFFFF" } } }],
+        "header": [{ "show": true, "fontColor": { "solid": { "color": "#231814" } }, "fontFamily": "Space Grotesk", "fontSize": 11, "bold": true }],
+        "items": [{ "fontColor": { "solid": { "color": "#78645B" } }, "background": { "solid": { "color": "#FFFFFF" } }, "fontSize": 10, "fontFamily": "IBM Plex Sans" }],
+        "selection": [{ "strokeWidth": 1, "strokeColor": { "solid": { "color": "#D42515" } } }]
+      }
+    },
+    "tableEx": {
+      "*": {
+        "grid": [{ "gridVertical": false, "gridHorizontal": true, "gridHorizontalColor": { "solid": { "color": "#F0E7DF" } }, "rowPadding": 6, "outlineColor": { "solid": { "color": "#E5DCD5" } } }],
+        "columnHeaders": [{ "fontColor": { "solid": { "color": "#231814" } }, "backColor": { "solid": { "color": "#FAF0E7" } }, "fontFamily": "IBM Plex Sans", "fontSize": 10, "bold": true, "outline": "None" }],
+        "values": [{ "fontColor": { "solid": { "color": "#231814" } }, "backColor": { "solid": { "color": "#FFFFFF" } }, "backColorSecondary": { "solid": { "color": "#FDF7F2" } }, "fontSize": 10, "fontFamily": "IBM Plex Sans", "outline": "None" }],
+        "total": [{ "fontColor": { "solid": { "color": "#231814" } }, "backColor": { "solid": { "color": "#FAF0E7" } }, "bold": true }]
+      }
+    },
+    "pivotTable": {
+      "*": {
+        "columnHeaders": [{ "fontColor": { "solid": { "color": "#231814" } }, "backColor": { "solid": { "color": "#FAF0E7" } }, "bold": true }],
+        "values": [{ "fontColor": { "solid": { "color": "#231814" } }, "backColor": { "solid": { "color": "#FFFFFF" } }, "backColorSecondary": { "solid": { "color": "#FDF7F2" } } }]
+      }
+    },
+    "actionButton": {
+      "*": {
+        "fill": [{ "show": true, "fillColor": { "solid": { "color": "#D42515" } }, "transparency": 0 }],
+        "text": [{ "fontColor": { "solid": { "color": "#FEF9F4" } }, "fontFamily": "Space Grotesk", "fontSize": 11, "bold": true }],
+        "outline": [{ "show": false }]
+      }
+    },
+    "textbox": { "*": { "background": [{ "show": false }] } },
+    "shape": { "*": { "fill": [{ "show": true, "fillColor": { "solid": { "color": "#FFFFFF" } } }] } }
+  }
+}
